@@ -825,7 +825,7 @@
 	 * @return void
 	 */
 	function findImages() {
-		$( 'a[href]' ).filter( testImages ).attr( 'data-featherlight', 'image' );
+		$( 'article.post .entry-content a[href]' ).filter( testImages ).attr( 'data-featherlight', 'image' );
 	}
 
 	/**
